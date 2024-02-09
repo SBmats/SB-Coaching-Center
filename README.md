@@ -16,17 +16,25 @@
 
 
     <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <link rel="stylesheet" href="assets/css/typography.css">
+    <link rel="stylesheet" href="assets/css/default-css.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!--color css-->
+    <link rel="stylesheet" id="triggerColor" href="assets/css/triggerplate/color-0.css">
+
+
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/templatemo-eduwell-style.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/lightbox.css">
-<!--
 
-TemplateMo 573 EduWell
-
-https://templatemo.com/tm-573-eduwell
-
--->
+<script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
   </head>
 
 <body>
@@ -346,7 +354,192 @@ https://templatemo.com/tm-573-eduwell
   </section>
 
   <section class="testimonials" id="testimonials">
-    <div class="container">
+    
+    <div class="course-area  ptb--120">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-10 offset-md-1">
+                  <div class="section-title-style2 black-title title-tb text-center">
+                      <span>build your career</span>
+                      <h2 class="primary-color">Featured Courses</h2>
+                  </div>
+              </div>
+          </div>
+
+          <div class="commn-carousel owl-carousel card-deck"> 
+              <div class="card mb-5">
+                  <div class="course-thumb">
+                      <img src="assets/images/course/cs-img1.jpg" alt="image">
+                      <span class="cs-price primary-bg">$49</span>
+                  </div>
+                  <div class="card-body  p-25"> 
+                      <div class="course-meta-title mb-4">
+                          <div class="course-meta-text">
+                              <h4><a href="course-details.html">Application Design Course</a></h4>
+                              <ul class="course-meta-stats">
+                                  <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></li>
+                                  <li>36 <i class="fa fa-comment"></i></li>
+                                  <li>85 <i class="fa fa-heart"></i></li>
+                              </ul>
+                          </div> 
+                          <a href="course-details.html"><img class="course-meta-thumbnail rounded-circle" src="assets/images/author/auth1.jpg" alt="image"> </a>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sciunt. Neque quisquam est, qui dolorem ipsum tatem.</p> 
+                      <ul class="course-meta-details list-inline  w-100">
+                          <li> 
+                           <p>Course</p>
+                           <span>3 Year</span>
+                          </li>
+                          <li>
+                           <p>Class Size</p>
+                            <span>18</span>
+                          </li> 
+                          <li>
+                           <p>Duration</p>
+                            <span>1 hour</span>
+                          </li>      
+                      </ul>  
+                </div><!-- card-body -->
+              </div><!-- card -->
+
+              <div class="card mb-5">
+                  <div class="course-thumb">
+                      <img src="assets/images/course/cs-img2.jpg" alt="image">
+                      <span class="cs-price primary-bg">$49</span>
+                  </div>
+                  <div class="card-body  p-25"> 
+                      <div class="course-meta-title mb-4">
+                          <div class="course-meta-text">
+                              <h4><a href="course-details.html">Data Structure & Algorithm</a></h4>
+                              <ul class="course-meta-stats">
+                                  <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></li>
+                                  <li>36 <i class="fa fa-comment"></i></li>
+                                  <li>85 <i class="fa fa-heart"></i></li>
+                              </ul>
+                          </div> 
+                          <a href="course-details.html"><img class="course-meta-thumbnail rounded-circle" src="assets/images/author/auth1.jpg" alt="image"> </a>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sciunt. Neque quisquam est, qui dolorem ipsum tatem.</p> 
+                      <ul class="course-meta-details list-inline  w-100">
+                          <li> 
+                           <p>Course</p>
+                           <span>3 Year</span>
+                          </li>
+                          <li>
+                           <p>Class Size</p>
+                            <span>18</span>
+                          </li> 
+                          <li>
+                           <p>Duration</p>
+                            <span>1 hour</span>
+                          </li>      
+                      </ul>  
+                </div><!-- card-body -->
+              </div><!-- card -->
+              <div class="card mb-5">
+                <div class="course-thumb">
+                    <img src="assets/images/course/cs-img3.jpg" alt="image">
+                    <span class="cs-price primary-bg">Rs.99</span>
+                </div>
+                <div class="card-body  p-25"> 
+                    <div class="course-meta-title mb-4">
+                        <div class="course-meta-text">
+                            <h4><a href="course-details.html">Android App Development</a></h4>
+                            <ul class="course-meta-stats">
+                                <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></li>
+                                <li>36 <i class="fa fa-comment"></i></li>
+                                <li>85 <i class="fa fa-heart"></i></li>
+                            </ul>
+                        </div> 
+                        <a href="course-details.html"><img class="course-meta-thumbnail rounded-circle" src="assets/images/author/auth1.jpg" alt="image"> </a>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sciunt. Neque quisquam est, qui dolorem ipsum tatem.</p> 
+                    <ul class="course-meta-details list-inline  w-100">
+                        <li> 
+                         <p>Course</p>
+                         <span>3 Year</span>
+                        </li>
+                        <li>
+                         <p>Class Size</p>
+                          <span>18</span>
+                        </li> 
+                        <li>
+                         <p>Duration</p>
+                          <span>1 hour</span>
+                        </li>      
+                    </ul>  
+              </div><!-- card-body -->
+            </div><!-- card --> 
+            <div class="card mb-5">
+              <div class="course-thumb">
+                  <img src="assets/images/course/cs-img3.jpg" alt="image">
+                  <span class="cs-price primary-bg">Rs.99</span>
+              </div>
+              <div class="card-body  p-25"> 
+                  <div class="course-meta-title mb-4">
+                      <div class="course-meta-text">
+                          <h4><a href="course-details.html">Android App Development</a></h4>
+                          <ul class="course-meta-stats">
+                              <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></li>
+                              <li>36 <i class="fa fa-comment"></i></li>
+                              <li>85 <i class="fa fa-heart"></i></li>
+                          </ul>
+                      </div> 
+                      <a href="course-details.html"><img class="course-meta-thumbnail rounded-circle" src="assets/images/author/auth1.jpg" alt="image"> </a>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sciunt. Neque quisquam est, qui dolorem ipsum tatem.</p> 
+                  <ul class="course-meta-details list-inline  w-100">
+                      <li> 
+                       <p>Course</p>
+                       <span>3 Year</span>
+                      </li>
+                      <li>
+                       <p>Class Size</p>
+                        <span>18</span>
+                      </li> 
+                      <li>
+                       <p>Duration</p>
+                        <span>1 hour</span>
+                      </li>      
+                  </ul>  
+            </div><!-- card-body -->
+          </div><!-- card --> 
+
+              <div class="card mb-5">
+                  <div class="course-thumb">
+                      <img src="assets/images/course/cs-img3.jpg" alt="image">
+                      <span class="cs-price primary-bg">Rs.99</span>
+                  </div>
+                  <div class="card-body  p-25"> 
+                      <div class="course-meta-title mb-4">
+                          <div class="course-meta-text">
+                              <h4><a href="course-details.html">Android App Development</a></h4>
+                              <ul class="course-meta-stats">
+                                  <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></li>
+                                  <li>36 <i class="fa fa-comment"></i></li>
+                                  <li>85 <i class="fa fa-heart"></i></li>
+                              </ul>
+                          </div> 
+                          <a href="course-details.html"><img class="course-meta-thumbnail rounded-circle" src="assets/images/author/auth1.jpg" alt="image"> </a>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sciunt. Neque quisquam est, qui dolorem ipsum tatem.</p> 
+                      <ul class="course-meta-details list-inline  w-100">
+                          <li> 
+                           <p>Course</p>
+                           <span>3 Year</span>
+                          </li>
+                          <li>
+                           <p>Class Size</p>
+                            <span>18</span>
+                          </li> 
+                          <li>
+                           <p>Duration</p>
+                            <span>1 hour</span>
+                          </li>      
+                      </ul>  
+                </div><!-- card-body -->
+              </div><!-- card --> 
+              <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="section-heading">
@@ -408,6 +601,72 @@ https://templatemo.com/tm-573-eduwell
         </div>
       </div>
     </div>
+          </div> 
+      </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-heading">
+          <h6>Testimonials</h6>
+          <h4>What They <em>Think</em></h4>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="owl-testimonials owl-carousel" style="position: relative; z-index: 5;">
+          <div class="item">
+            <p>“just think about TemplateMo if you need free CSS templates for your website”</p>
+              <h4>Catherine Walk</h4>
+              <span>CEO &amp; Founder</span>
+              <img src="assets/images/quote.png" alt="">
+          </div>
+          <div class="item">
+            <p>“think about our website first when you need free HTML templates for your website”</p>
+              <h4>David Martin</h4>
+              <span>CTO of Tech Company</span>
+              <img src="assets/images/quote.png" alt="">
+          </div>
+          <div class="item">
+            <p>“just think about our website wherever you need free templates for your website”</p>
+              <h4>Sophia Whity</h4>
+              <span>CEO and Co-Founder</span>
+              <img src="assets/images/quote.png" alt="">
+          </div>
+          <div class="item">
+            <p>“Praesent accumsan condimentum arcu, id porttitor est semper nec. Nunc diam lorem.”</p>
+              <h4>Helen Shiny</h4>
+              <span>Tech Officer</span>
+              <img src="assets/images/quote.png" alt="">
+          </div>
+          <div class="item">
+            <p>“Praesent accumsan condimentum arcu, id porttitor est semper nec. Nunc diam lorem.”</p>
+              <h4>George Soft</h4>
+              <span>Gadget Reviewer</span>
+              <img src="assets/images/quote.png" alt="">
+          </div>
+          <div class="item">
+            <p>“Praesent accumsan condimentum arcu, id porttitor est semper nec. Nunc diam lorem.”</p>
+              <h4>Andrew Hall</h4>
+              <span>Marketing Manager</span>
+              <img src="assets/images/quote.png" alt="">
+          </div>
+          <div class="item">
+            <p>“Praesent accumsan condimentum arcu, id porttitor est semper nec. Nunc diam lorem.”</p>
+              <h4>Maxi Power</h4>
+              <span>Fashion Designer</span>
+              <img src="assets/images/quote.png" alt="">
+          </div>
+          <div class="item">
+            <p>“Praesent accumsan condimentum arcu, id porttitor est semper nec. Nunc diam lorem.”</p>
+              <h4>Olivia Too</h4>
+              <span>Creative Designer</span>
+              <img src="assets/images/quote.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   </section>
 
   <section class="contact-us" id="contact-section">
@@ -417,7 +676,7 @@ https://templatemo.com/tm-573-eduwell
           <div id="map">
           
             <!-- You just need to go to Google Maps for your own map point, and copy the embed code from Share -> Embed a map section -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7151.84524236698!2d-122.19494600413192!3d47.56605883252286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490695e625f8965%3A0xf99b055e76477def!2sNewcastle%20Beach%20Park%20Playground%2C%20Bellevue%2C%20WA%2098006%2C%20USA!5e0!3m2!1sen!2sth!4v1644335269264!5m2!1sen!2sth" width="100%" height="420px" frameborder="0" style="border:0; border-radius: 15px; position: relative; z-index: 2;" allowfullscreen=""></iframe>
+            
             <div class="row">
               <div class="col-lg-4 offset-lg-1">
                 <div class="contact-info">
@@ -450,24 +709,12 @@ https://templatemo.com/tm-573-eduwell
                   <p>IF you need a working contact form by PHP script, please visit TemplateMo's contact page for more info.</p>
                 </div>
               </div>
+              
+              
               <div class="col-lg-12">
                 <fieldset>
-                  <input type="name" name="name" id="name" placeholder="Full Name" autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <textarea name="message" id="message" placeholder="Your Message"></textarea>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <button type="submit" id="form-submit" class="main-gradient-button">Send Message</button>
+                  <button><a href="#">Register New</a> </button>
+                 
                 </fieldset>
               </div>
             </div>
@@ -493,6 +740,20 @@ https://templatemo.com/tm-573-eduwell
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
+ <!-- footer area end -->
+ 
+    <!-- jquery latest version -->
+    <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
+    <!-- bootstrap 4 js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- others plugins -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/scripts.js"></script>
+
+
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
